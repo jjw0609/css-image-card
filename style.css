@@ -1,11 +1,11 @@
-.content {
-    width: 220px; height: 310px; transition : all 0.1s;
+.container {
+    width: 100px; height: 100px; transition : all 0.1s;
     position: relative;
 }
 .overlay {
     position: absolute;
-    width: 220px;
-    height: 310px;
+    width: 100px;
+    height: 100px;
     background: linear-gradient(105deg,
     transparent 40%,
     rgba(255, 219, 112, 0.8) 45%,
@@ -18,7 +18,8 @@
     transition: all 0.1s;
 }
 .card {
-    width: 220px; height: 310px;
-    /*background-image: url(pika.webp);*/
+    width: 100px; height: 100px;
+    border: 1px solid gray;
+    /*background-image: url('pika.webp');*/
     background-size: cover;
 }
